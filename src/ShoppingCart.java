@@ -11,9 +11,7 @@ public class ShoppingCart {
                .mapToInt(Product ::getPrice)
                .sum();
     }
-    public Order checkout(Customer customer){
-        Payment p = customer.getCard().makePayment(getTotalCost());
-    }
+
 
     @Override
     public String toString() {

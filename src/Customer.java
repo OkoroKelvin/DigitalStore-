@@ -7,7 +7,5 @@ public class Customer {
         this.creditCard = new CreditCard(ccNumber);
     }
 
-    public Order checkout(ShoppingCart cart){
-        Payment p =creditCard.
-    }
+
 }
