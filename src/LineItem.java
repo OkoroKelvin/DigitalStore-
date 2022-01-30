@@ -1,0 +1,13 @@
+//public class LineItem {
+//    private final Product product;
+//    private final int quantity;
+//
+//    public LineItem(Product product, int quantity) {
+//        this.product = product;
+//        this.quantity = quantity;
+//    }
+//
+//    public LineItem(LineItem li){
+//        this(li.product,li.quantity);
+//    }
+//}
